@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Draw_Polyline", "Draw_Polyline.csproj", "{D04DF7C0-F3FC-424A-814E-9FCFFA909044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D04DF7C0-F3FC-424A-814E-9FCFFA909044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04DF7C0-F3FC-424A-814E-9FCFFA909044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04DF7C0-F3FC-424A-814E-9FCFFA909044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04DF7C0-F3FC-424A-814E-9FCFFA909044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6BC34B0-D89F-4A01-9DE7-88BECABF7E34}
+	EndGlobalSection
+EndGlobal
