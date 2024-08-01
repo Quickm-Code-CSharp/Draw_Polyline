@@ -5,7 +5,7 @@
     Height="300" Width="350">
     <Grid>
         <Canvas Name="canDrawing" Background="White"
-            MouseDown="canDrawing_MouseDown"
-            MouseMove="canDrawing_MouseMove"/>
+            MouseDown="CanDrawing_MouseDown"
+            MouseMove="CanDrawing_MouseMove"/>
     </Grid>
 </Window>

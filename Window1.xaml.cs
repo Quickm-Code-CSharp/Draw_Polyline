@@ -30,7 +30,7 @@ namespace wpf_let_user_draw_polyline
 
         // The user clicked. Add a point,
         // stop drawing, or start a new curve.
-        private void canDrawing_MouseDown(object sender, MouseButtonEventArgs e)
+        private void CanDrawing_MouseDown(object sender, MouseButtonEventArgs e)
         {
             // See if we are currently drawing.
             if (NewPolyline != null)
@@ -51,9 +51,11 @@ namespace wpf_let_user_draw_polyline
             else
             {
                 // We are not drawing. Start a new Polyline.
-                NewPolyline = new Polyline();
-                NewPolyline.Stroke = Brushes.LightGreen;
-                NewPolyline.StrokeThickness = 5;
+                NewPolyline = new Polyline
+                {
+                    Stroke = Brushes.LightGreen,
+                    StrokeThickness = 5
+                };
                 NewPolyline.Points.Add(e.GetPosition(canDrawing));
                 NewPolyline.Points.Add(e.GetPosition(canDrawing));
                 canDrawing.Children.Add(NewPolyline);
@@ -61,7 +63,7 @@ namespace wpf_let_user_draw_polyline
         }
 
         // Update the new Polyline's most recent point.
-        private void canDrawing_MouseMove(object sender, MouseEventArgs e)
+        private void CanDrawing_MouseMove(object sender, MouseEventArgs e)
         {
             if (NewPolyline == null) return;
 
